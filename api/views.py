@@ -11,7 +11,7 @@ from rest_framework.response import Response
 
 
 class Cowrywise(APIView):
-    """This API returns unique UUIDs with their latest timestamps on each API call (i.e. reload)"""
+    """This API returns unique UUIDs with their latest timestamps on each API call (i.e. request.GET)"""
     
     # I'm making this variable global to be accessible from anywhere. It holds my cached content,
     # which will subsequently add your API context to itself whenever it is called
