@@ -1,0 +1,15 @@
+# virtual environment
+venv/
+
+# django packages
+.log
+db.sqlite3
+migrations/
+
+# python templates
+__pycache__/
+*.py[cod]
+*$py.class
+
+# installer log
+pip-log.txt
